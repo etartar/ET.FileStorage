@@ -4,7 +4,20 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>ET.FileStorage.Cloudinary</Title>
+    <Authors>Emir TARTAR</Authors>
+    <Description>Cloudinary dosya yükleme işlemleri için geliştirilmiş olan kütüphanedir.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/etartar/ET.FileStorage</RepositoryUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
 	<PackageReference Include="CloudinaryDotNet" Version="1.20.0" />

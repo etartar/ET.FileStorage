@@ -4,7 +4,22 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Title>ET.FileStorage.Local</Title>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Emir TARTAR</Authors>
+    <Description>Sunucu tarafında dosya yükleme işlemleri için geliştirilmiş olan kütüphanedir.</Description>
+    <PackageProjectUrl></PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/etartar/ET.FileStorage</RepositoryUrl>
+    <PackageTags></PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\ET.FileStorage.Core\ET.FileStorage.Core.csproj" />
