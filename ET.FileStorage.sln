@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33312.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C2B515C3-5B03-48C8-AC77-8CACC0E1E3C8}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{1F82C413-DAE2-4B7A-A104-114D100F91BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E37BC13C-36D3-40F7-BDC1-E349C521C073}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ET.FileStorage.Core", "core\ET.FileStorage.Core\ET.FileStorage.Core.csproj", "{340DF60B-2E5A-4865-9C42-80BC3A0F9C94}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ET.FileStorage.AmazonS3", "core\ET.FileStorage.AmazonS3\ET.FileStorage.AmazonS3.csproj", "{2341A26C-225B-407B-B550-0F3A5ED4567C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ET.FileStorage.AzureBlobStorage", "core\ET.FileStorage.AzureBlobStorage\ET.FileStorage.AzureBlobStorage.csproj", "{C9BEB33C-C0ED-4BC3-892B-955A80683574}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ET.FileStorage.Cloudinary", "core\ET.FileStorage.Cloudinary\ET.FileStorage.Cloudinary.csproj", "{12752C63-FE95-4639-B268-940E29BF9CCA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ET.FileStorage.Local", "core\ET.FileStorage.Local\ET.FileStorage.Local.csproj", "{81C685C2-A1AC-458D-9274-C844176191A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{340DF60B-2E5A-4865-9C42-80BC3A0F9C94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{340DF60B-2E5A-4865-9C42-80BC3A0F9C94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{340DF60B-2E5A-4865-9C42-80BC3A0F9C94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{340DF60B-2E5A-4865-9C42-80BC3A0F9C94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2341A26C-225B-407B-B550-0F3A5ED4567C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2341A26C-225B-407B-B550-0F3A5ED4567C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2341A26C-225B-407B-B550-0F3A5ED4567C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2341A26C-225B-407B-B550-0F3A5ED4567C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9BEB33C-C0ED-4BC3-892B-955A80683574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9BEB33C-C0ED-4BC3-892B-955A80683574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9BEB33C-C0ED-4BC3-892B-955A80683574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9BEB33C-C0ED-4BC3-892B-955A80683574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12752C63-FE95-4639-B268-940E29BF9CCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12752C63-FE95-4639-B268-940E29BF9CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12752C63-FE95-4639-B268-940E29BF9CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12752C63-FE95-4639-B268-940E29BF9CCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81C685C2-A1AC-458D-9274-C844176191A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81C685C2-A1AC-458D-9274-C844176191A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81C685C2-A1AC-458D-9274-C844176191A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81C685C2-A1AC-458D-9274-C844176191A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{340DF60B-2E5A-4865-9C42-80BC3A0F9C94} = {1F82C413-DAE2-4B7A-A104-114D100F91BA}
+		{2341A26C-225B-407B-B550-0F3A5ED4567C} = {1F82C413-DAE2-4B7A-A104-114D100F91BA}
+		{C9BEB33C-C0ED-4BC3-892B-955A80683574} = {1F82C413-DAE2-4B7A-A104-114D100F91BA}
+		{12752C63-FE95-4639-B268-940E29BF9CCA} = {1F82C413-DAE2-4B7A-A104-114D100F91BA}
+		{81C685C2-A1AC-458D-9274-C844176191A2} = {1F82C413-DAE2-4B7A-A104-114D100F91BA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62F477FE-C5C9-42EA-866A-693BAD76E9C4}
+	EndGlobalSection
+EndGlobal
